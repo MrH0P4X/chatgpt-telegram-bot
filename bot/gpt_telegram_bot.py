@@ -15,9 +15,9 @@ from telegram.ext import (
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-
-telegram_token = os.environ["TELEGRAM_TOKEN"]
-openai.api_key = os.environ["OPENAI_TOKEN"]
+,, 
+telegram_token = os.environ["6033107776:AAGjmtKUWr_Rur74S8SgRVXc3KqqPlACPIw"]
+openai.api_key = os.environ["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"]
 
 messages_list = []
 
